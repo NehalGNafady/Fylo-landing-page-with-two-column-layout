@@ -1,0 +1,270 @@
+.header{height: 500px;
+        margin: 40px;
+        padding-left: 30px;}
+
+.head{ margin-bottom: 40px;}
+
+.logo{float: left}
+
+nav{float: right}
+
+nav ul li{display: inline-block;
+          margin-right: 30px;
+          float: right;
+          font-weight: 400;
+          font-size: 20px;
+          font-family: Open Sans}
+
+.left_section{margin-top: 53px}
+
+.left_section h1{font-weight: bold; 
+                 font-family: Raleway;
+                 font-size: 35px;}
+
+.left_section input[type=email]{padding: 3px 10px; 
+                                border: 1px solid #afabab;
+                                width: 60%;}
+
+::placeholder {color: hsl(0, 0%, 75%)}
+
+.left_section a{background-color: hsl(224, 93%, 58%); 
+                color: #fff;
+                padding: 5px 25px;
+                border-radius: 3px;
+                margin-left: 10px}
+
+.right_section img{width: 75%;
+                   margin-left: 30px;
+                   height: 340px;}
+
+.full_content{background: #f8f8fe; 
+              background-position: center;
+              padding-bottom: 50px;
+              margin-top: -30px;}
+
+.content .curve{margin-left: -32px; 
+                margin-bottom: -30px;}
+
+.content .curve img{width: 106%;}
+
+.full_content .left_section{margin-top:50px;
+                            padding-left: 43px;}
+
+.full_content .right_section{ margin-top: 80px;}
+
+.full_content .right_section img{width: 75%;
+                                 margin-left: 30px;
+                                 height: 370px;}
+
+.full_content .left_section a{background: none;
+                            color: hsl(170, 58%, 56%);
+                            font-weight: bold;
+                            border-bottom: 3px solid hsl(170, 45%, 43%);
+                            margin: 0;
+                            padding-left: 2px;
+                            padding-right: 3px;}
+
+.quote {background: #fff;
+        width: 68%;
+        padding: 20px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        box-shadow: inset 0 -3em 3em rgba(103, 98, 98, 0),
+                    0 0 0 2px rgb(255,255,255),
+                    0.3em 0.3em 1em rgba(154, 154, 154, 0.3)}
+
+.avatar_info .left_info{ margin-right: -95px;}
+
+.avatar_info .left_info img{border-radius: 50%; width: 40%;}
+
+.avatar_info .right_info{margin-top: 10px}
+
+.avatar_info .right_info h4{font-size: 16px; font-weight: bold;}
+
+.avatar_info .right_info h6{font-size: 12px;}    
+
+.early_access{background-color: hsl(238, 22%, 44%);
+              color: hsl(240, 75%, 98%);
+              padding: 45px;
+              padding-top: 75px;}
+
+.early_access .left_access{padding-right: 65px;}
+
+.early_access .left_access p{padding-top: 10px;
+                             color: #dedbdb;}
+
+.early_access .right_access{padding-left: 75px; 
+                            margin-top: 15px;}
+
+.early_access .right_access input[type=email]{  width: 90%;
+                                                padding: 5px;
+                                                padding-left: 15px;
+                                                border-radius: 4px;
+                                                border: 1px solid;}
+
+.early_access .right_access button{background: hsl(224, 93%, 58%); 
+                                    color: #fff; 
+                                    margin-top: 10px;
+                                    border: 1px solid hsl(224, 93%, 58%);
+                                    border-radius: 3px;
+                                    padding: 5px 18px;}
+
+.footer{background: #07043b;
+        color: #fff;
+        width: 105%;
+        margin-left: -15px;
+        padding-top: 50px;
+        padding-bottom: 20px;}
+
+.footer .logo{  color: white;
+                filter: brightness(0) invert(1);
+                padding-left: 50px; }
+
+.footer_columns{
+                margin-top: 54px;
+                margin-left: 36px;
+                color: #cecdcd;}
+
+.footer_columns ul{ margin-top: 25px;}
+
+.footer_columns .contact ul{margin-left: -40px;}
+
+.footer_columns ul li{list-style: none}
+
+.footer_columns img { margin-right: 10px;}
+
+.footer_columns ul li p { margin-top: -24px;
+                          margin-left: 35px;
+                          text-align: left;}
+
+.footer_columns .social {margin-left: -40px}
+
+.footer_columns .social li{display: inline-block}
+
+.footer_columns .social li i {margin: 5px;
+                                border: 1px solid #b9b4b4;
+                                padding: 6px;
+                                border-radius: 50%;
+                                color: #f9f9f9;}
+
+.attribution { font-size: 14px; text-align: center; margin-top: 16px; }
+
+.attribution a { color: #585989 }
+
+@media (min-width: 375px){
+}
+
+@media (max-width: 375px) {
+    
+    .logo{margin-left:-50px}
+    
+    .logo img{width:40%;}
+    
+    nav{margin-top:-25px;}
+    
+    nav ul{margin-right:-30px;}
+    
+    nav ul li {font-size: 17px;
+                margin-right:5px;
+                padding-left: 5px;}
+        
+    .left_section{float: right; 
+                  margin-top: 300px;}
+    
+    .left_section h1{ text-align: center;
+                      margin-left: -30px;
+                      font-size: 29px;}
+    
+    .header_content .left_section p{text-align: center;
+                                    margin-left: -60px;
+                                    margin-right: -30px;} 
+
+    .left_section input[type=email]{margin-bottom: 25px;
+                                    width: 130%;     
+                                    box-shadow: 1px 1px 5px #ececec;
+                                    margin-left: -50px;}
+    
+    ::placeholder {color: #e0dddd}
+    
+    .left_section a{margin-left: -50px;
+                    margin-right: -23px;
+                    padding: 10px 114px;
+                    box-shadow: 1px 1px 5px #a7a1a1;}
+    
+    .right_section{float: left;   
+                  margin-top:-615px;}
+    
+    .content {margin-top: 450px}
+    
+    .content .curve{margin-left: -30px;
+                    margin-bottom: 30px;
+                    margin-top: -200px;}
+    
+    .content .curve img{width: 119%} 
+    
+    .right_section img{ width:120%;
+                        height:280px;
+                        margin-left:-30px;}
+    
+    .full_content .left_section{margin-top: 270px;}
+    
+    .full_content .left_section h1{ font-size: 21px;
+                                    margin-top: 30px;
+                                    font-weight: bold;}
+    
+    .full_content .left_section p{font-size: 14px;
+                                  margin-left: -20px;
+                                  margin-right: -1px;}
+    
+    .full_content .right_section{margin-top: -765px}
+    
+    .full_content .right_section img{margin-left: 45px;
+                                     height: 220px;}
+    
+    .full_content .left_section a{  box-shadow: none;
+                                    margin-left: 57px;
+                                    font-weight: 500;
+                                    border-bottom: 2px solid;}
+    
+    .quote{width: 92%;}
+    
+    blockquote{text-align: justify; font-size: 14px}
+    
+    .avatar_info .left_info img{    width: 20%;}
+    
+    .avatar_info .right_info {margin-top: -45px;
+                              margin-left: 65px;}
+    
+    .avatar_info .right_info h4{font-size: 15px}
+    
+    .early_access{text-align: center; 
+                  padding-left: 20px;}
+    
+    .early_access .left_access {padding-right: 0px;}
+    
+    .early_access .right_access{padding-left: 20px;
+                                padding-right: 0px;}
+    
+    .early_access .right_access button{padding: 5px 57px;    
+                                       border-radius: 1px;}
+    
+    .early_access .left_access h3{font-size: 21px;}  
+    
+    .early_access .left_access p{font-size: 15px;
+                                  margin-left: -6px;}
+    
+    .footer{ width: 110%; font-size: 14px;}
+    
+    .footer .logo{padding-left: 70px;}
+    
+    .footer .logo img { width: 75%;}
+    
+    .footer_columns{margin-left: 3px;}
+    
+    .footer_columns .about_us, .footer_columns .contact_us{margin-left: -40px;}
+    
+    .footer_columns .social{ text-align: center;}
+    
+    .attribution{ font-size: 13px;}
+
+}
