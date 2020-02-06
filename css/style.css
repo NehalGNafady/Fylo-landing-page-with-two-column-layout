@@ -138,6 +138,8 @@ nav ul li{display: inline-block;
                           margin-left: 35px;
                           text-align: left;}
 
+.footer_columns ul li a{color: #d4cdcd}
+
 .footer_columns .social {margin-left: -40px}
 
 .footer_columns .social li{display: inline-block}
