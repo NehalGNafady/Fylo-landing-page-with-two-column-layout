@@ -16,6 +16,8 @@ nav ul li{display: inline-block;
           font-size: 20px;
           font-family: Open Sans}
 
+nav ul li:hover{cursor: pointer}
+
 .left_section{margin-top: 53px}
 
 .left_section h1{font-weight: bold; 
@@ -101,6 +103,7 @@ nav ul li{display: inline-block;
                                                 padding: 5px;
                                                 padding-left: 15px;
                                                 border-radius: 4px;
+                                                color: #e0dedb;
                                                 border: 1px solid;}
 
 .early_access .right_access button{background: hsl(224, 93%, 58%); 
@@ -157,7 +160,7 @@ nav ul li{display: inline-block;
 @media (min-width: 375px){
 }
 
-@media (max-width: 375px) {
+@media (max-width: 992px) {
     
     .logo{margin-left:-50px}
     
@@ -172,7 +175,7 @@ nav ul li{display: inline-block;
                 padding-left: 5px;}
         
     .left_section{float: right; 
-                  margin-top: 300px;}
+                  margin-top: 330px;}
     
     .left_section h1{ text-align: center;
                       margin-left: -30px;
@@ -183,15 +186,14 @@ nav ul li{display: inline-block;
                                     margin-right: -30px;} 
 
     .left_section input[type=email]{margin-bottom: 25px;
-                                    width: 130%;     
+                                    width: 110%;     
                                     box-shadow: 1px 1px 5px #ececec;
-                                    margin-left: -50px;}
-    
-    ::placeholder {color: #e0dddd}
-    
-    .left_section a{margin-left: -50px;
+                                    margin-left: -30px;
+                                    color: #e0dedb;}
+        
+    .left_section a{margin-left: -30px;
                     margin-right: -23px;
-                    padding: 10px 114px;
+                    padding: 10px 120px;
                     box-shadow: 1px 1px 5px #a7a1a1;}
     
     .right_section{float: left;   
@@ -209,6 +211,8 @@ nav ul li{display: inline-block;
                         height:280px;
                         margin-left:-30px;}
     
+    .full_content{margin-right: -30px;}
+    
     .full_content .left_section{margin-top: 270px;}
     
     .full_content .left_section h1{ font-size: 21px;
@@ -219,13 +223,13 @@ nav ul li{display: inline-block;
                                   margin-left: -20px;
                                   margin-right: -1px;}
     
-    .full_content .right_section{margin-top: -765px}
+    .full_content .right_section{margin-top: -710px}
     
-    .full_content .right_section img{margin-left: 45px;
+    .full_content .right_section img{margin-left: 60px;
                                      height: 220px;}
     
     .full_content .left_section a{  box-shadow: none;
-                                    margin-left: 57px;
+                                    margin-left: 90px;
                                     font-weight: 500;
                                     border-bottom: 2px solid;}
     
@@ -240,7 +244,8 @@ nav ul li{display: inline-block;
     
     .avatar_info .right_info h4{font-size: 15px}
     
-    .early_access{text-align: center; 
+    .early_access{text-align: center;
+                  margin-right: -25px;
                   padding-left: 20px;}
     
     .early_access .left_access {padding-right: 0px;}
@@ -248,7 +253,9 @@ nav ul li{display: inline-block;
     .early_access .right_access{padding-left: 20px;
                                 padding-right: 0px;}
     
-    .early_access .right_access button{padding: 5px 57px;    
+    .early_access .right_access input[type=email]{width: 75%;}
+    
+    .early_access .right_access button{padding: 5px 63px;    
                                        border-radius: 1px;}
     
     .early_access .left_access h3{font-size: 21px;}  
